@@ -70,7 +70,7 @@ const Home = () => {
 
   useEffect(() => {
     dispatch(GetData());
-  }, []);
+  }, [data]);
 
   return (
     <>
